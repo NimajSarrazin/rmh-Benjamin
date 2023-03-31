@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    
+    .form{
+
+        @apply w-64 block
+    }
+
+    label {
+        @apply text-white
+    }
+}
+
+form > div > ul > li {
+    color: red;
+}
